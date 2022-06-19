@@ -50,7 +50,7 @@ if minor_version % 2:
 else:
     branch = series
 
-download_url = 'https://github.com/tryton-ar/account_report_ar/tree/%s' % branch
+download_url = 'https://github.com/rollyar/account_report_ar/tree/%s' % branch
 
 LINKS = {}
 
@@ -72,7 +72,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     description='Tryton module add accounting reports of Argentina',
     long_description=read('README'),
     author='tryton-ar',
-    url='https://github.com/tryton-ar/account_report_ar',
+    url='https://github.com/rollyar/account_report_ar',
     download_url=download_url,
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
